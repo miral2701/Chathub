@@ -9,4 +9,5 @@ namespace WebApplication1.Models
             await this.Clients.All.SendAsync("Receive", userName,message);
         }
     }
+
 }
